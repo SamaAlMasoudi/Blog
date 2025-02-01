@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>إنشاء حساب</title>
+</head>
+
+<body>
+    <header>
+        <img src="./Images/logo.png" alt="شعار المدونة" class="logo">
+        <h2>أهلاً وسهلاً بكم في مدونة" تطوير بلا حدود" 💻🌐</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">عن الموقع</a></li>
+                <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="login.html">تسجيل الدخول</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>إنشاء حساب جديد ✨</h2>
+        <h4>مرحبا بك في مجتمعنا! 🎉</h4>
+        <p>لإنشاء حساب، يرجى ملء المعلومات التالية. نحن ملتزمون بحماية خصوصيتك! 🔒</p>
+
+        <form action="submit_registration.html" method="POST">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">كلمة المرور:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">تأكيد كلمة المرور:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">إنشاء حساب</button>
+        </form>
+
+        <p>لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول هنا</a>.</p>
+    </main>
+    <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+</main>
+<footer>
+    <p>حقوق الطبع والنشر محفوظة © 2025
+        <br>
+            <img src="./Images/logo.png" alt="شعار المدونة" class="logo">
+            <br>...Al Masoudi...
+        </p>
+</footer>
+</body>
+
+</html>

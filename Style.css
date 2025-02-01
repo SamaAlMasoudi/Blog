@@ -1,0 +1,273 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    background-color: #534f4a9e;
+}
+ 
+header {
+    background: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.logo {
+    max-width: 150px; 
+    height: auto; 
+    margin-bottom: 15px; 
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+.image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+} 
+.image,.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px 0;
+    background-color: #001f664f;
+}
+
+.blog-list article {
+    width: 300px; 
+    margin: 10px; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+}
+
+.blog-list article:hover {
+    transform: scale(1.05);
+}
+
+.blog-list article h3 {
+    margin-top: 0;
+}
+
+.blog-list article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #86c7d1c5; 
+    border-radius: 8px; 
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+button {
+    background-color: #800909; 
+    color: white;
+    border: none; 
+    padding: 10px 85px;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-size: 1em;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #ffd700; 
+}
+.courses {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 20px;
+}
+
+.course {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: 300px; 
+    text-align: center; 
+}
+
+
+.courses {
+    margin: 20px;
+}
+
+.course {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.tips-title {
+    font-size: 2em; 
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tip-item {
+    margin: 15px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s; 
+}
+
+.tip-item:hover {
+    background-color: #e0e0e0;
+}
+
+.tip-header {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.articles-title, .resources-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px; 
+    color: #333; 
+}
+
+.article-item, .resource-item {
+    margin: 20px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 15px; 
+    background-color: #f9f9f9; 
+    transition: transform 0.2s; 
+}
+
+.article-item:hover, .resource-item:hover {
+    transform: scale(1.02); 
+}
+
+.article-header, .resource-header {
+    font-size: 1.5em; 
+    color: #2c3e50;
+    margin-bottom: 10px; 
+}
+
+.article-description, .resource-description {
+    font-size: 1em; 
+    color: #555; 
+    margin-bottom: 15px; 
+}
+
+.read-more {
+    color: #3498db;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+.tips {
+    background-color: #c01fad71; 
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.code-example {
+    background-color: rgb(89, 188, 145); 
+    border: 1px solid #ccc;
+    padding: 15px; 
+    border-radius: 5px;
+    overflow-x: auto;
+}
+h4 {
+    text-align: center;
+    color: #033d7c;
+}
+
+pre {
+    background-color: #cae8f451;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+    margin: 20px 0;
+    direction: ltr;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 0, 0);
+}
